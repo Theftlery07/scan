@@ -4,7 +4,7 @@ function startUp(){
 }
 var win;
 function typer(){
-    counter+=1;
+    counter+=document.getElementById("move").value;
     
     if(win!=undefined){
         // document.getElementById("words").innerHTML=win.location;
